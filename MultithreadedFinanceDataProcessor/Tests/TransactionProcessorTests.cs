@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Moq;
 using MultithreadedFinanceDataProcessor.Models;
 using MultithreadedFinanceDataProcessor.Services;
