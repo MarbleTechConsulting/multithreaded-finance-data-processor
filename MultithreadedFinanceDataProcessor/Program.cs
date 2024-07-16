@@ -1,5 +1,6 @@
-﻿using MultithreadedFinanceDataProcessor.Services;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using MultithreadedFinanceDataProcessor.Services;
 
 internal class Program
 {
@@ -13,9 +14,34 @@ internal class Program
 
         var serviceProvider = new ServiceCollection()
             .AddSingleton<ICsvReader, CsvReader>()
+            .AddSingleton<ITransactionProcessor, TransactionProcessor>()
+            .AddLogging(configure => configure.AddConsole())
             .BuildServiceProvider();
+
+        var logger = serviceProvider.GetService<ILogger<Program>>();
+        if (logger == null)
+        {
+            Console.WriteLine("Failed to configure logging.");
+            return;
+        }
 
         var filePath = args[0];
         var csvReader = serviceProvider.GetService<ICsvReader>();
+        if (csvReader == null)
+        {
+            logger.LogError("Failed to retrieve ICsvReader service.");
+            throw new InvalidOperationException("ICsvReader service is not available.");
+        }
+
+        var transactions = csvReader.ReadTransactions(filePath);
+
+        var processor = serviceProvider.GetService<ITransactionProcessor>();
+        if (processor == null)
+        {
+            logger.LogError("Failed to retrieve ITransactionProcessor service.");
+            throw new InvalidOperationException("ITransactionProcessor service is not available.");
+        }
+
+        processor.ProcessTransactions(transactions);
     }
 }
