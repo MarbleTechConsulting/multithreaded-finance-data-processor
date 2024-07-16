@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CMaDT6hivfo=",
+  "dgSpecHash": "529Vecd5ZAA=",
   "success": true,
   "projectFilePath": "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\owenp\\.nuget\\packages\\csvhelper\\2.11.0\\csvhelper.2.11.0.nupkg.sha512"
+    "C:\\Users\\owenp\\.nuget\\packages\\csvhelper\\2.11.0\\csvhelper.2.11.0.nupkg.sha512",
+    "C:\\Users\\owenp\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\owenp\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": [
     {
