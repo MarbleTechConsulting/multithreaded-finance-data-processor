@@ -1,3 +1,4 @@
+using System.Collections.Concurrent;
 using MultithreadedFinanceDataProcessor.Models;
 
 namespace MultithreadedFinanceDataProcessor.Services

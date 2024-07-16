@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultithreadedFinanceDataProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f0b4224bfe688d96f3eed583d9b517258bb573c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+445b6fc8cf06fc6915b52a7ead87c5987107b017")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultithreadedFinanceDataProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultithreadedFinanceDataProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
