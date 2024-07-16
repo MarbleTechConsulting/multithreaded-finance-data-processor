@@ -17,6 +17,5 @@ internal class Program
 
         var filePath = args[0];
         var csvReader = serviceProvider.GetService<ICsvReader>();
-        _ = csvReader.ReadTransactions(filePath);
     }
 }

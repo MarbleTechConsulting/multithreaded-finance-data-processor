@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj": {}
+    "c:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj": {
+    "c:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj",
+        "projectUniqueName": "c:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj",
         "projectName": "MultithreadedFinanceDataProcessor",
-        "projectPath": "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj",
+        "projectPath": "c:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\MultithreadedFinanceDataProcessor.csproj",
         "packagesPath": "C:\\Users\\owenp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\obj\\",
+        "outputPath": "c:\\Users\\owenp\\Documents\\Projects\\multithreaded-finance-data-processor\\MultithreadedFinanceDataProcessor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\owenp\\AppData\\Roaming\\NuGet\\NuGet.Config"
