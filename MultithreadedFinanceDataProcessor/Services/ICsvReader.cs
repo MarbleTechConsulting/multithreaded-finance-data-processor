@@ -5,6 +5,6 @@ namespace MultithreadedFinanceDataProcessor.Services
 {
     public interface ICsvReader
     {
-        IEnumerable<Transaction> ReadTransactions(string filePath, CsvConfiguration csvConfiguration);
+        IEnumerable<Transaction> ReadTransactions(string filePath);
     }
 }
